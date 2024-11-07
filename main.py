@@ -1,7 +1,7 @@
 import requests
 import fitz 
 
-BOT_TOKEN = '7763761681:AAEgbT3eRvvHUo_0a-YTcmZwg8LJNbNylzA'
+BOT_TOKEN = 'insert_here'
 
 CHANNEL_ID = '@libros_para_el'
 import os
