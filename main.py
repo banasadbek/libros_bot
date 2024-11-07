@@ -1,13 +1,12 @@
 import requests
-import fitz  # PyMuPDF
+import fitz 
 
-# Replace 'YOUR_BOT_TOKEN' with your actual Telegram Bot Token
 BOT_TOKEN = '7763761681:AAEgbT3eRvvHUo_0a-YTcmZwg8LJNbNylzA'
-# Replace 'YOUR_CHANNEL_ID' with your actual Telegram Channel ID (e.g., @channelname or channel ID)
-CHANNEL_ID = '@analistadeinformacion'
+
+CHANNEL_ID = '@libros_para_el'
 import os
 
-PDF_DIRECTORY = 'books/'  # Directory where your PDFs are stored
+PDF_DIRECTORY = 'books'  
 
 def send_photo_to_channel(bot_token, channel_id, photo_path):
     url = f'https://api.telegram.org/bot{bot_token}/sendPhoto'
